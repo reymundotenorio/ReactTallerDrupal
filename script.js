@@ -6,5 +6,9 @@
 //   "libre de Managua."
 // );
 
-const elemento = <p className="may">El mejor <strong>cine al aire</strong> libre de Managua.</p>;
+const elemento = (
+  <p className="may" style={{ color: "red" }}>
+    El mejor <strong>cine al aire</strong> libre de Managua.
+  </p>
+);
 ReactDOM.render(elemento, document.getElementById("app"));
