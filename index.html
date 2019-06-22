@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Taller React JS</title>
+    <meta
+      name="description"
+      content="Presentado por la comunidad Drupal Nicaragua"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Unpkg for production -->
+    <!-- <script src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"></script> -->
+    <!-- End Unpkg for production  -->
+
+    <!-- Unpkg for development -->
+    <script src="https://unpkg.com/react@16.8.4/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.8.4/umd/react-dom.development.js"></script>
+    <!-- End Unpkg for development -->
+
+    <!-- Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- End Babel -->
+  </head>
+  <body>
+    <header>
+      <h1>Cine de las estrellas</h1>
+      <!-- <p>El mejor <strong>cine al aire libre</strong> de Managua.</p> -->
+
+      <!-- React  -->
+      <div id="app"></div>
+    </header>
+
+    <h2>En cartelera</h2>
+
+    <section>
+      <article>
+        <h3>Space Jam</h3>
+        <div class="year">Publicada en 1996</div>
+        <img
+          alt="Portada de Space Jam"
+          src="https://m.media-amazon.com/images/M/MV5BMDgyZTI2YmYtZmI4ZC00MzE0LWIxZWYtMWRlZWYxNjliNTJjXkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SX300.jpg"
+        />
+      </article>
+
+      <article>
+        <h3>Muppets from Space</h3>
+        <div class="year">Publicada en 1999</div>
+        <img
+          alt="Portada de Muppets from Space"
+          src="https://m.media-amazon.com/images/M/MV5BODI2Zjc5YzMtNzQ1NS00NGVmLWExYzgtMzFlY2NiMGMzZjRjXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_SX300.jpg"
+        />
+      </article>
+
+      <article>
+        <h3>2001: A Space Odyssey</h3>
+        <div class="year">Publicada en 1968</div>
+        <img
+          alt="Portada de 2001: A Space Odyssey"
+          src="https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+        />
+      </article>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
