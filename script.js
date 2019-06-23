@@ -69,7 +69,7 @@ class ContenedorApp extends React.Component {
     console.log(event);
 
     const nuevaPeli = {
-      id: "9",
+      id: "tt0117705",
       name: "Avengers: Infinity War",
       year: 2018,
       votes: 15,

@@ -1,0 +1,25 @@
+- Como renderizar js en jsx dentro de strings. Ex alt=""... | { `Contenido string ${variable}` }
+
+- Dif nuevamente de función con () y sin (). Ex. handleClick | Función React y función JS
+
+- Transform Class Property => Babel
+
+- Axios
+
+- Con hooks?
+
+- Referencia -> Elementos del DOM (jQuery)
+
+- LifeCycle Methods - > APIS
+
+- Ciclo de la papa caliente
+
+- Memorize -> Valores inmutables
+
+- Overreacted Blog
+
+- ... -> ???
+
+- Query Strings -> URL Params | Search
+
+- CodeSpliting - > Separar bundle de componentes
